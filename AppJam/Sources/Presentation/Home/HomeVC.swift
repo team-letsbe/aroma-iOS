@@ -35,14 +35,20 @@ final class HomeVC: BaseVC {
         $0.font = .gmarket(size: 18, family: .medium)
     }
     
-    private let calenderView = UIView().then {
-        $0.layer.cornerRadius = 16
+    private let calenderButton = UIButton().then {
+        $0.setImage(UIImage(named: "Calender"), for: .normal)
+        $0.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
     }
     
     override func addViews() {
-        view.addSubviews(helloLabel, wiseSayingView, memoLabel, calenderView)
+        view.addSubviews(helloLabel, wiseSayingView, memoLabel, calenderButton)
         wiseSayingView.addSubviews(wiseSayingLabel, wiseSayingAt)
-        
+    }
+    
+    @objc func didTapButton() {
+        let popUpVC = DailyPopUpVC(title: "타이틀", desc: "디스크립션")
+        popUpVC.modalPresentationStyle = .overFullScreen
+        self.present(popUpVC, animated: false)
     }
     
     override func setLayout() {
@@ -63,13 +69,20 @@ final class HomeVC: BaseVC {
         }
         
         wiseSayingAt.snp.makeConstraints {
-            $0.top.equalTo(wiseSayingLabel.snp.bottom).offset(20)
+            $0.top.equalTo(wiseSayingLabel.snp.bottom).offset(18)
             $0.leading.equalTo(wiseSayingView).inset(150)
         }
         
         memoLabel.snp.makeConstraints {
             $0.top.equalTo(wiseSayingView.snp.bottom).offset(44)
             $0.leading.equalTo(41)
+        }
+        
+        calenderButton.snp.makeConstraints {
+            $0.top.equalTo(memoLabel.snp.bottom).offset(39)
+            $0.leading.trailing.equalTo(self.view.safeAreaLayoutGuide).inset(41)
+            $0.width.equalTo(308)
+            $0.height.equalTo(321)
         }
     }
 }

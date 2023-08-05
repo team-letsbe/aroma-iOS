@@ -28,6 +28,10 @@
 		D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */; };
 		D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */; };
 		D0C8436D2A7EAEC1005F7EC6 /* MeditationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */; };
+		D0C8436F2A7ECDC9005F7EC6 /* DailyPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8436E2A7ECDC9005F7EC6 /* DailyPopUpVC.swift */; };
+		D0C843722A7ED2B5005F7EC6 /* DailyPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843712A7ED2B5005F7EC6 /* DailyPopUpView.swift */; };
+		D0C843762A7ED599005F7EC6 /* DailyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C843752A7ED599005F7EC6 /* DailyInfo.plist */; };
+		D0C843792A7ED5E7005F7EC6 /* aroma++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843782A7ED5E7005F7EC6 /* aroma++Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
 		D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
 		D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDetailVC.swift; sourceTree = "<group>"; };
+		D0C8436E2A7ECDC9005F7EC6 /* DailyPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPopUpVC.swift; sourceTree = "<group>"; };
+		D0C843712A7ED2B5005F7EC6 /* DailyPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPopUpView.swift; sourceTree = "<group>"; };
+		D0C843752A7ED599005F7EC6 /* DailyInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DailyInfo.plist; sourceTree = "<group>"; };
+		D0C843782A7ED5E7005F7EC6 /* aroma++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "aroma++Bundle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D0C843202A7BC810005F7EC6 /* Info.plist */,
+				D0C843752A7ED599005F7EC6 /* DailyInfo.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -197,6 +206,7 @@
 		D0C8433D2A7E24DD005F7EC6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D0C843772A7ED5D1005F7EC6 /* Daily */,
 				D0C8433E2A7E24E8005F7EC6 /* General */,
 			);
 			path = Data;
@@ -213,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				D0C843402A7E3181005F7EC6 /* HomeVC.swift */,
+				D0C8436E2A7ECDC9005F7EC6 /* DailyPopUpVC.swift */,
+				D0C843712A7ED2B5005F7EC6 /* DailyPopUpView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -275,6 +287,14 @@
 				D0C843632A7E83D7005F7EC6 /* GmarketSansMedium.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D0C843772A7ED5D1005F7EC6 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				D0C843782A7ED5E7005F7EC6 /* aroma++Bundle.swift */,
+			);
+			path = Daily;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +367,7 @@
 			files = (
 				D0C843672A7E83D7005F7EC6 /* GmarketSansBold.otf in Resources */,
 				D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */,
+				D0C843762A7ED599005F7EC6 /* DailyInfo.plist in Resources */,
 				D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */,
 				D0C8431F2A7BC810005F7EC6 /* LaunchScreen.storyboard in Resources */,
 				D0C843662A7E83D7005F7EC6 /* GmarketSansMedium.otf in Resources */,
@@ -364,6 +385,7 @@
 				D0C843172A7BC80F005F7EC6 /* LoginVC.swift in Sources */,
 				D0C8436D2A7EAEC1005F7EC6 /* MeditationDetailVC.swift in Sources */,
 				D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */,
+				D0C843722A7ED2B5005F7EC6 /* DailyPopUpView.swift in Sources */,
 				D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */,
 				D0C843412A7E3182005F7EC6 /* HomeVC.swift in Sources */,
 				D0C843442A7E3BB3005F7EC6 /* CustomTabbar.swift in Sources */,
@@ -373,6 +395,8 @@
 				D0C8434D2A7E44DD005F7EC6 /* HexColor.swift in Sources */,
 				D0C843312A7BF985005F7EC6 /* BaseVC.swift in Sources */,
 				D0C8435F2A7E8045005F7EC6 /* GmarketFont.swift in Sources */,
+				D0C843792A7ED5E7005F7EC6 /* aroma++Bundle.swift in Sources */,
+				D0C8436F2A7ECDC9005F7EC6 /* DailyPopUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
