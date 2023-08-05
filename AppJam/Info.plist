@@ -4,11 +4,16 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>GmarketSansMedium.otf</string>
-		<string>BM JUA_otf.otf</string>
+		<string>BMJUA_otf.otf</string>
 		<string>GmarketSansLight.otf</string>
 		<string>GmarketSansBold.otf</string>
+		<string>GmarketSansMedium.otf</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

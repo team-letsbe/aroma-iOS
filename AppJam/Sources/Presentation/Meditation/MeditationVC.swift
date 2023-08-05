@@ -13,7 +13,7 @@ final class MeditationVC: BaseVC {
         $0.textColor = UIColor(hexCode: "FFFFFF")
         $0.text = "어서오세요 지은님,\n원하시는 명상을 선택해 주세요."
         $0.numberOfLines = 2
-        $0.font = UIFont(name: "BMJUA_otf", size: 22)
+        $0.font = .gmarket(size: 22, family: .bold)
         $0.textAlignment = .center
     }
     

@@ -24,14 +24,12 @@
 		D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8434F2A7E4520005F7EC6 /* addSubviews.swift */; };
 		D0C8435F2A7E8045005F7EC6 /* GmarketFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8435E2A7E8045005F7EC6 /* GmarketFont.swift */; };
 		D0C843662A7E83D7005F7EC6 /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843632A7E83D7005F7EC6 /* GmarketSansMedium.otf */; };
-		D0C843672A7E83D7005F7EC6 /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843642A7E83D7005F7EC6 /* GmarketSansBold.otf */; };
 		D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */; };
 		D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */; };
 		D0C8436D2A7EAEC1005F7EC6 /* MeditationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */; };
 		D0C8436F2A7ECDC9005F7EC6 /* DailyPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8436E2A7ECDC9005F7EC6 /* DailyPopUpVC.swift */; };
-		D0C843722A7ED2B5005F7EC6 /* DailyPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843712A7ED2B5005F7EC6 /* DailyPopUpView.swift */; };
-		D0C843762A7ED599005F7EC6 /* DailyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C843752A7ED599005F7EC6 /* DailyInfo.plist */; };
 		D0C843792A7ED5E7005F7EC6 /* aroma++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843782A7ED5E7005F7EC6 /* aroma++Bundle.swift */; };
+		D0C8437C2A7F04A7005F7EC6 /* LeftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8437B2A7F04A7005F7EC6 /* LeftPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +39,6 @@
 		D0C843162A7BC80F005F7EC6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D0C8431B2A7BC810005F7EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C8431E2A7BC810005F7EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0C843202A7BC810005F7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C843302A7BF985005F7EC6 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		D0C843402A7E3181005F7EC6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D0C843432A7E3BB3005F7EC6 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
@@ -56,9 +53,9 @@
 		D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
 		D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDetailVC.swift; sourceTree = "<group>"; };
 		D0C8436E2A7ECDC9005F7EC6 /* DailyPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPopUpVC.swift; sourceTree = "<group>"; };
-		D0C843712A7ED2B5005F7EC6 /* DailyPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPopUpView.swift; sourceTree = "<group>"; };
-		D0C843752A7ED599005F7EC6 /* DailyInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DailyInfo.plist; sourceTree = "<group>"; };
 		D0C843782A7ED5E7005F7EC6 /* aroma++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "aroma++Bundle.swift"; sourceTree = "<group>"; };
+		D0C8437B2A7F04A7005F7EC6 /* LeftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPadding.swift; sourceTree = "<group>"; };
+		D0C843842A7F0C06005F7EC6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +91,7 @@
 		D0C843112A7BC80F005F7EC6 /* AppJam */ = {
 			isa = PBXGroup;
 			children = (
+				D0C843842A7F0C06005F7EC6 /* Info.plist */,
 				D0C843262A7BCEE6005F7EC6 /* Resources */,
 				D0C843272A7BCEFF005F7EC6 /* Sources */,
 				D0C8432B2A7BF8DE005F7EC6 /* Support */,
@@ -150,8 +148,6 @@
 		D0C8432B2A7BF8DE005F7EC6 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				D0C843202A7BC810005F7EC6 /* Info.plist */,
-				D0C843752A7ED599005F7EC6 /* DailyInfo.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -178,6 +174,7 @@
 		D0C8432E2A7BF969005F7EC6 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				D0C8437A2A7F048B005F7EC6 /* UITextField */,
 				D0C8434E2A7E4513005F7EC6 /* UIView */,
 				D0C8434B2A7E44C7005F7EC6 /* UIColor */,
 				D0C843422A7E3AD1005F7EC6 /* Tabbar */,
@@ -224,7 +221,6 @@
 			children = (
 				D0C843402A7E3181005F7EC6 /* HomeVC.swift */,
 				D0C8436E2A7ECDC9005F7EC6 /* DailyPopUpVC.swift */,
-				D0C843712A7ED2B5005F7EC6 /* DailyPopUpView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -297,6 +293,14 @@
 			path = Daily;
 			sourceTree = "<group>";
 		};
+		D0C8437A2A7F048B005F7EC6 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8437B2A7F04A7005F7EC6 /* LeftPadding.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,9 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C843672A7E83D7005F7EC6 /* GmarketSansBold.otf in Resources */,
 				D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */,
-				D0C843762A7ED599005F7EC6 /* DailyInfo.plist in Resources */,
 				D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */,
 				D0C8431F2A7BC810005F7EC6 /* LaunchScreen.storyboard in Resources */,
 				D0C843662A7E83D7005F7EC6 /* GmarketSansMedium.otf in Resources */,
@@ -385,7 +387,7 @@
 				D0C843172A7BC80F005F7EC6 /* LoginVC.swift in Sources */,
 				D0C8436D2A7EAEC1005F7EC6 /* MeditationDetailVC.swift in Sources */,
 				D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */,
-				D0C843722A7ED2B5005F7EC6 /* DailyPopUpView.swift in Sources */,
+				D0C8437C2A7F04A7005F7EC6 /* LeftPadding.swift in Sources */,
 				D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */,
 				D0C843412A7E3182005F7EC6 /* HomeVC.swift in Sources */,
 				D0C843442A7E3BB3005F7EC6 /* CustomTabbar.swift in Sources */,
@@ -537,11 +539,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FHST2C78H4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AppJam/Support/Info.plist;
+				INFOPLIST_FILE = AppJam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,11 +568,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FHST2C78H4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AppJam/Support/Info.plist;
+				INFOPLIST_FILE = AppJam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
