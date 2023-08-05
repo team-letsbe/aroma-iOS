@@ -16,12 +16,17 @@
 		D0C843342A7CB24B005F7EC6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0C843332A7CB24B005F7EC6 /* SnapKit */; };
 		D0C843372A7CB25E005F7EC6 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D0C843362A7CB25E005F7EC6 /* Then */; };
 		D0C8433B2A7CC963005F7EC6 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D0C8433A2A7CC963005F7EC6 /* Moya */; };
-		D0C843412A7E3182005F7EC6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843402A7E3181005F7EC6 /* MainVC.swift */; };
+		D0C843412A7E3182005F7EC6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843402A7E3181005F7EC6 /* HomeVC.swift */; };
 		D0C843442A7E3BB3005F7EC6 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843432A7E3BB3005F7EC6 /* CustomTabbar.swift */; };
 		D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843462A7E3CC8005F7EC6 /* RecommendSongVC.swift */; };
 		D0C8434A2A7E3F6F005F7EC6 /* MeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843492A7E3F6F005F7EC6 /* MeditationVC.swift */; };
 		D0C8434D2A7E44DD005F7EC6 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8434C2A7E44DD005F7EC6 /* HexColor.swift */; };
 		D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8434F2A7E4520005F7EC6 /* addSubviews.swift */; };
+		D0C8435F2A7E8045005F7EC6 /* GmarketFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8435E2A7E8045005F7EC6 /* GmarketFont.swift */; };
+		D0C843662A7E83D7005F7EC6 /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843632A7E83D7005F7EC6 /* GmarketSansMedium.otf */; };
+		D0C843672A7E83D7005F7EC6 /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843642A7E83D7005F7EC6 /* GmarketSansBold.otf */; };
+		D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */; };
+		D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +38,17 @@
 		D0C8431E2A7BC810005F7EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C843202A7BC810005F7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C843302A7BF985005F7EC6 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		D0C843402A7E3181005F7EC6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D0C843402A7E3181005F7EC6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D0C843432A7E3BB3005F7EC6 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 		D0C843462A7E3CC8005F7EC6 /* RecommendSongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSongVC.swift; sourceTree = "<group>"; };
 		D0C843492A7E3F6F005F7EC6 /* MeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationVC.swift; sourceTree = "<group>"; };
 		D0C8434C2A7E44DD005F7EC6 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		D0C8434F2A7E4520005F7EC6 /* addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addSubviews.swift; sourceTree = "<group>"; };
+		D0C8435E2A7E8045005F7EC6 /* GmarketFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmarketFont.swift; sourceTree = "<group>"; };
+		D0C843632A7E83D7005F7EC6 /* GmarketSansMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansMedium.otf; sourceTree = "<group>"; };
+		D0C843642A7E83D7005F7EC6 /* GmarketSansBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansBold.otf; sourceTree = "<group>"; };
+		D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
+		D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		D0C843262A7BCEE6005F7EC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D0C843592A7E7FD1005F7EC6 /* Fonts */,
 				D0C843292A7BF879005F7EC6 /* Launch */,
 				D0C843282A7BCF11005F7EC6 /* Assets */,
 			);
@@ -139,7 +150,7 @@
 			children = (
 				D0C843482A7E3F5C005F7EC6 /* Meditation */,
 				D0C843452A7E3C80005F7EC6 /* RecommendSong */,
-				D0C8433F2A7E3175005F7EC6 /* Main */,
+				D0C8433F2A7E3175005F7EC6 /* Home */,
 				D0C8432D2A7BF919005F7EC6 /* Login */,
 			);
 			path = Presentation;
@@ -159,7 +170,7 @@
 				D0C8434E2A7E4513005F7EC6 /* UIView */,
 				D0C8434B2A7E44C7005F7EC6 /* UIColor */,
 				D0C843422A7E3AD1005F7EC6 /* Tabbar */,
-				D0C843382A7CB2C3005F7EC6 /* extension */,
+				D0C843382A7CB2C3005F7EC6 /* DesignSystem */,
 				D0C8432F2A7BF97A005F7EC6 /* Base */,
 			);
 			path = Utility;
@@ -173,11 +184,12 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		D0C843382A7CB2C3005F7EC6 /* extension */ = {
+		D0C843382A7CB2C3005F7EC6 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				D0C843582A7E7F4E005F7EC6 /* font */,
 			);
-			path = extension;
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 		D0C8433D2A7E24DD005F7EC6 /* Data */ = {
@@ -195,12 +207,12 @@
 			path = General;
 			sourceTree = "<group>";
 		};
-		D0C8433F2A7E3175005F7EC6 /* Main */ = {
+		D0C8433F2A7E3175005F7EC6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D0C843402A7E3181005F7EC6 /* MainVC.swift */,
+				D0C843402A7E3181005F7EC6 /* HomeVC.swift */,
 			);
-			path = Main;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D0C843422A7E3AD1005F7EC6 /* Tabbar */ = {
@@ -241,6 +253,25 @@
 				D0C8434F2A7E4520005F7EC6 /* addSubviews.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		D0C843582A7E7F4E005F7EC6 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8435E2A7E8045005F7EC6 /* GmarketFont.swift */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		D0C843592A7E7FD1005F7EC6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */,
+				D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */,
+				D0C843642A7E83D7005F7EC6 /* GmarketSansBold.otf */,
+				D0C843632A7E83D7005F7EC6 /* GmarketSansMedium.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +342,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C843672A7E83D7005F7EC6 /* GmarketSansBold.otf in Resources */,
+				D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */,
+				D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */,
 				D0C8431F2A7BC810005F7EC6 /* LaunchScreen.storyboard in Resources */,
+				D0C843662A7E83D7005F7EC6 /* GmarketSansMedium.otf in Resources */,
 				D0C8431C2A7BC810005F7EC6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,13 +361,14 @@
 				D0C843172A7BC80F005F7EC6 /* LoginVC.swift in Sources */,
 				D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */,
 				D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */,
-				D0C843412A7E3182005F7EC6 /* MainVC.swift in Sources */,
+				D0C843412A7E3182005F7EC6 /* HomeVC.swift in Sources */,
 				D0C843442A7E3BB3005F7EC6 /* CustomTabbar.swift in Sources */,
 				D0C8434A2A7E3F6F005F7EC6 /* MeditationVC.swift in Sources */,
 				D0C843132A7BC80F005F7EC6 /* AppDelegate.swift in Sources */,
 				D0C843152A7BC80F005F7EC6 /* SceneDelegate.swift in Sources */,
 				D0C8434D2A7E44DD005F7EC6 /* HexColor.swift in Sources */,
 				D0C843312A7BF985005F7EC6 /* BaseVC.swift in Sources */,
+				D0C8435F2A7E8045005F7EC6 /* GmarketFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

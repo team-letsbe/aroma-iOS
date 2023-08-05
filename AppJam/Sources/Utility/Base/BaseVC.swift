@@ -4,7 +4,6 @@ import Then
 
 class BaseVC: UIViewController {
     
-    let tabBarView = CustomTabBar(tabItems: [.meditation, .home, .music])
     let bound = UIScreen().bounds
     let backgroundLayer = CAGradientLayer()
     let colors: [CGColor] = [
@@ -24,18 +23,9 @@ class BaseVC: UIViewController {
         setup()
         addViews()
         setLayout()
-        setTabbar()
     }
     
     func setLayout() {}
     func setup() {}
     func addViews() {}
-    func setTabbar() {
-        view.addSubview(tabBarView)
-        
-        tabBarView.snp.makeConstraints {
-            $0.leading.trailing.bottom.equalTo(view.safeAreaLayoutGuide)
-            $0.height.equalTo(79)
-        }
-    }
 }
