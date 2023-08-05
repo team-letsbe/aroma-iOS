@@ -32,7 +32,7 @@ final class HomeVC: BaseVC {
     private let memoLabel = UILabel().then {
         $0.text = "소중한 순간들을 메모해봐요."
         $0.textColor = UIColor(hexCode: "FFFFFF")
-        $0.font = UIFont(name: "BMJUA_otf.otf", size: 22)
+        $0.font = .gmarket(size: 18, family: .medium)
     }
     
     private let calenderView = UIView().then {

@@ -27,6 +27,7 @@
 		D0C843672A7E83D7005F7EC6 /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843642A7E83D7005F7EC6 /* GmarketSansBold.otf */; };
 		D0C843692A7E83DF005F7EC6 /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */; };
 		D0C8436B2A7E9DDF005F7EC6 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */; };
+		D0C8436D2A7EAEC1005F7EC6 /* MeditationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		D0C843642A7E83D7005F7EC6 /* GmarketSansBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansBold.otf; sourceTree = "<group>"; };
 		D0C843682A7E83DF005F7EC6 /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
 		D0C8436A2A7E9DDF005F7EC6 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
+		D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				D0C843492A7E3F6F005F7EC6 /* MeditationVC.swift */,
+				D0C8436C2A7EAEC1005F7EC6 /* MeditationDetailVC.swift */,
 			);
 			path = Meditation;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C843172A7BC80F005F7EC6 /* LoginVC.swift in Sources */,
+				D0C8436D2A7EAEC1005F7EC6 /* MeditationDetailVC.swift in Sources */,
 				D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */,
 				D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */,
 				D0C843412A7E3182005F7EC6 /* HomeVC.swift in Sources */,

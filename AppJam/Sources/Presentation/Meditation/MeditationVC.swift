@@ -22,6 +22,7 @@ final class MeditationVC: BaseVC {
         $0.contentVerticalAlignment = .fill
         $0.contentHorizontalAlignment = .fill
         $0.largeContentImageInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        $0.addTarget(self, action: #selector(tapMeditationBtn), for: .touchUpInside)
     }
     
     private let concentrationButton = UIButton().then {
@@ -29,6 +30,7 @@ final class MeditationVC: BaseVC {
         $0.contentVerticalAlignment = .fill
         $0.contentHorizontalAlignment = .fill
         $0.largeContentImageInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        $0.addTarget(self, action: #selector(tapMeditationBtn), for: .touchUpInside)
     }
     
     private let walkButton = UIButton().then {
@@ -36,6 +38,7 @@ final class MeditationVC: BaseVC {
         $0.contentVerticalAlignment = .fill
         $0.contentHorizontalAlignment = .fill
         $0.largeContentImageInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        $0.addTarget(self, action: #selector(tapMeditationBtn), for: .touchUpInside)
     }
     
     private let heartButton = UIButton().then {
@@ -43,10 +46,20 @@ final class MeditationVC: BaseVC {
         $0.contentVerticalAlignment = .fill
         $0.contentHorizontalAlignment = .fill
         $0.largeContentImageInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        $0.addTarget(self, action: #selector(tapMeditationBtn), for: .touchUpInside)
+    }
+    
+    override func setup() {
+        self.navigationItem.title = ""
     }
     
     override func addViews() {
         view.addSubviews(mediImageView, hiLabel, breathButton, concentrationButton, walkButton, heartButton)
+    }
+    
+    @objc func tapMeditationBtn(_ sender: UIButton) {
+        let vc = MeditationDetailVC()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     override func setLayout() {
