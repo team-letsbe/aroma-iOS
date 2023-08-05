@@ -1,29 +1,29 @@
 import UIKit
 
 enum TabItem: Int {
+    case meditation
     case home
-    case chat
-    case my
+    case music
     
     var normalImage: UIImage? {
         switch self {
+        case .meditation:
+            return UIImage(named: "Meditation")
         case .home:
-            return UIImage(systemName: "house")
-        case .chat:
-            return UIImage(systemName: "message")
-        case .my:
-            return UIImage(systemName: "person.crop.circle")
+            return UIImage(named: "Home")
+        case .music:
+            return UIImage(named: "Music")
         }
     }
     
     var selectedImage: UIImage? {
         switch self {
+        case .meditation:
+            return UIImage(named: "Meditation")
         case .home:
-            return UIImage(systemName: "house.fill")
-        case .chat:
-            return UIImage(systemName: "message.fill")
-        case .my:
-            return UIImage(systemName: "person.crop.circle.fill")
+            return UIImage(named: "SelectedHome")
+        case .music:
+            return UIImage(named: "SelectedMusic")
         }
     }
 }

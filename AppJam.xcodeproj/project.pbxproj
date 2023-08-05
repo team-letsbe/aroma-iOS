@@ -17,7 +17,7 @@
 		D0C843372A7CB25E005F7EC6 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D0C843362A7CB25E005F7EC6 /* Then */; };
 		D0C8433B2A7CC963005F7EC6 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D0C8433A2A7CC963005F7EC6 /* Moya */; };
 		D0C843412A7E3182005F7EC6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843402A7E3181005F7EC6 /* MainVC.swift */; };
-		D0C843442A7E3BB3005F7EC6 /* CustomTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843432A7E3BB3005F7EC6 /* CustomTabbarVC.swift */; };
+		D0C843442A7E3BB3005F7EC6 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843432A7E3BB3005F7EC6 /* CustomTabbar.swift */; };
 		D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843462A7E3CC8005F7EC6 /* RecommendSongVC.swift */; };
 		D0C8434A2A7E3F6F005F7EC6 /* MeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C843492A7E3F6F005F7EC6 /* MeditationVC.swift */; };
 		D0C8434D2A7E44DD005F7EC6 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8434C2A7E44DD005F7EC6 /* HexColor.swift */; };
@@ -34,7 +34,7 @@
 		D0C843202A7BC810005F7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C843302A7BF985005F7EC6 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		D0C843402A7E3181005F7EC6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		D0C843432A7E3BB3005F7EC6 /* CustomTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarVC.swift; sourceTree = "<group>"; };
+		D0C843432A7E3BB3005F7EC6 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 		D0C843462A7E3CC8005F7EC6 /* RecommendSongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSongVC.swift; sourceTree = "<group>"; };
 		D0C843492A7E3F6F005F7EC6 /* MeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationVC.swift; sourceTree = "<group>"; };
 		D0C8434C2A7E44DD005F7EC6 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		D0C843422A7E3AD1005F7EC6 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				D0C843432A7E3BB3005F7EC6 /* CustomTabbarVC.swift */,
+				D0C843432A7E3BB3005F7EC6 /* CustomTabbar.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 				D0C843502A7E4520005F7EC6 /* addSubviews.swift in Sources */,
 				D0C843472A7E3CC8005F7EC6 /* RecommendSongVC.swift in Sources */,
 				D0C843412A7E3182005F7EC6 /* MainVC.swift in Sources */,
-				D0C843442A7E3BB3005F7EC6 /* CustomTabbarVC.swift in Sources */,
+				D0C843442A7E3BB3005F7EC6 /* CustomTabbar.swift in Sources */,
 				D0C8434A2A7E3F6F005F7EC6 /* MeditationVC.swift in Sources */,
 				D0C843132A7BC80F005F7EC6 /* AppDelegate.swift in Sources */,
 				D0C843152A7BC80F005F7EC6 /* SceneDelegate.swift in Sources */,

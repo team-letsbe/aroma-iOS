@@ -4,7 +4,7 @@ import Then
 
 class BaseVC: UIViewController {
     
-    let tabBarView = CustomTabBar(tabItems: [.home, .chat, .my])
+    let tabBarView = CustomTabBar(tabItems: [.meditation, .home, .music])
     let bound = UIScreen().bounds
     let backgroundLayer = CAGradientLayer()
     let colors: [CGColor] = [
